@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
+    <title>RazorPay</title>
+  </head>
+  <body>
+    <div class="overflow-x-hidden">
+ <!-- nav bar -->
+      <nav class="bg-deepBlue">
+        <div
+          class="w-[1080px] relative flex mx-auto items-center justify-between"
+        >
+          <!-- logo -->
+          <a href="/" class="cursor-pointer py-7 pr-7">
+            <img
+              src="assets/logo.svg"
+              width="125px"
+              height="30px"
+              alt="RazorPay logo"
+            />
+          </a>
+          <!-- list item -->
+
+          <ul class="flex gap-6 text-sm">
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#payments">Payments</a>
+
+              <div
+                class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200"
+              ></div>
+            </li>
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#banking">Banking</a>
+
+              <div
+                class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200"
+              ></div>
+            </li>
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#lineofcredit">Line of Credit</a>
+            </li>
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#payrol">Payroll</a>
+            </li>
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#resources">Resources</a>
+
+              <div
+                class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200"
+              ></div>
+            </li>
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#support">Support</a>
+
+              <div
+                class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200"
+              ></div>
+            </li>
+
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+            >
+              <a href="#pricing">Pricing</a>
+
+              <div
+                class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200"
+              ></div>
+            </li>
+          </ul>
+
+          <div class="flex gap-4">
+            <img
+              src="assets/india-flag.svg"
+              width="28px"
+              height="20px"
+              alt=" india-flag"
+            />
+
+            <div class="flex items-center cursor-pointer group  ">
+             <button class="py-3 px-5 font-mullish text-white border-lightBlue border
+                rounded-sm text-sm  font-bold ">Log in</button>
+              
+            </div>
+
+            <button
+              class="py-2 px-4 font-mullish text-sm rounded-sm border font-bold text-lightBlue300 bg-white transition-all duration-200 hover:text-lightBlue500  flex items-center gap-2 group"
+            >
+              Sign Up
+
+               <ion-icon size="small" class="group-hover:translate-x-2 transition-all duration-300"  name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero section -->
+      <section class="relative bg-deepBlue">
+        <div
+          class="font-mullish flex flex-row text-white mx-auto w-10/12 max-w-[1080px] justify-between items-center "
+        >
+          <!-- left part -->
+          <div class="space-y-8">
+            <h1 class="font-bold text-[40px] leading-[1.2]">
+              Power your finance, grow your business
+            </h1>
+            <div class="w-6 h-1 bg-greenLight"></div>
+            <p class="text-[18px] leading-7 opacity-75">
+              Accept payments from customers. Automate payouts to vendors &
+              employees. Never run out of working capital.
+            </p>
+            <button  class="bg-lightBlue group flex items-center gap-2 font-bold rounded-md hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] text-white">Sign Up Now
+              <ion-icon size="small" class="group-hover:translate-x-2 transition-all duration-300"  name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+          <!-- right part -->
+          <div>
+          <img class="max-w-[680px]" src="assets/hero-illustration.jpg" />
+        </div>
+        <!-- shape part -->
+         <div class="absolute left-0 right-0 top-full w-[102%] ">
+          <img class="object-fill w-full" src="assets/hero-shape.svg" />
+        </div>
+        
+      </section>
+      
+      <!-- Feature section 1 -->
+      <section class="font-mullish relative mt-[190px] overflow-hidden">
+        <img class="absolute -top-[8rem] left-[10rem]" src="assets/feature-section1-dottedrows.png" width="233px" height="167px"  loading="lazy">
+        <img class="absolute top-[3rem] right-0 rotate-[180deg]" src="assets/feature-section1-dottedrows.png" width="233px" height="167px" loading="lazy">
+
+
+        <div class="w-11/12 max-w-[1080px] relative mx-auto pt-4">
+          <!-- heading -->
+          <h2 class="font-extrabold text-center text-2xl leading-[1.2]">Accept Payments with Razorpay Payment Suite</h2>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+
+          <!-- content box -->
+          <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
+            <!-- left sec -->
+            <div class="flex  flex-col justify-between  w-full">
+              <h3 class="font-bold text-[28px] leading-10  max-w-[500px]">Supercharge your business with the all-powerful<span class="text-lightBlue">
+                Payment Gateway
+              </span></h3>
+              <ul class="space-y-2">
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>100+ Payment Methods</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Industry Leading Success Rate</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Superior Checkout Experience</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Easy to Integrate</span>
+                </li>
+               <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Instant Settlements from day 1</span>
+                </li>
+               <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>In-depth Reporting and Insights</span>
+                </li>
+              </ul>
+              <!-- fot button and hyperlink -->
+              <div class="flex flex-row items-center space-x-4">
+                <button  class="bg-lightBlue group flex items-center gap-2 font-bold rounded-md hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] text-white">Sign Up Now
+                  <ion-icon size="small" class="group-hover:translate-x-2 transition-all duration-300"  name="arrow-forward-outline"></ion-icon>
+                </button>
+                <!-- for hyperlink -->
+                <div class="flex gap-2 items-center cursor-pointer group border rounded-md py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+              </div>
+            </div>
+            <img class="absolute right-0 bottom-0 max-w-[600px]" src="assets/payment-suite.png" loading="lazy">
+          </div>
+
+              <!-- sub feature -->
+        <div class="w-full grid grid-cols-3 gap-8 mt-14">
+          <!-- box1 -->
+          <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/payment-link-icon.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payments Links</h3>
+              <p class="text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          <!-- box2 -->
+          <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/payment-pages-icon.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payments Pages</h3>
+              <p class="text-grayText mt-6">Take your store online instantly with zero coding.Accept international & domestic payments</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          <!-- box3 -->
+           <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/payment-button.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payments Buttons</h3>
+              <p class="text-grayText mt-6">Create,Copy & Collect with Payments Button.   Collect onetime or subscription payments & more</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          <!-- box4 -->
+          <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/subscriptions-icon.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Subscriptions</h3>
+              <p class="text-grayText mt-6">Subscription plans with automated recurring transactions on various payment modes.</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          <!-- box5 -->
+         <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/route-icon.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Route</h3>
+              <p class="text-grayText mt-6">Split incoming payments automatically to vendors accounts,manage marketplace money flow...</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          <!-- box6 -->
+          <div class="w-full min-h-[15rem] relative cursor-pointer card transition-all duration-200">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/Xicon.svg" loading="lazy">
+            <!-- boxshape -->
+            <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                </svg>
+                              <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]">Smart Collect</h3>
+              <p class="text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+    
+      </section>
+
+      <!-- Feature section 2 -->
+
+      <section class="bg-feature2-img bg-no-repeat bg-cover pt-[10rem]  pb-[350px] mt-14">
+        <div class="w-10/12 max-w-[1080px] mx-auto relative font-mullish text-white">
+
+          <h2 class="font-extrabold text-center text-2xl leading-[1.2]">Explore Razorpay Business Banking</h2>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-20"></div>
+          
+          <!-- main feature box -->
+          <div class="relative w-full min-h-[440px] flex flex-col">
+            <img src="assets/x-flame-1.png" loading="lazy" 
+            class="absolute -top-[142px] -left-[140px] w-[200px]">
+            <img src="assets/x-flame-2.png" loading="lazy"
+            class="absolute top-[150px] -right-[180px] w-[270px]">
+
+            <!-- content box -->
+               <div class="w-full min-h-[460px]  flex rounded-md relative p-10 py-12 border border-slate-600  bg-[#181c2e]">
+            <!-- left sec -->
+            <div class="flex  flex-col justify-between   w-full">
+              <h3 class="font-bold text-[28px] leading-10  max-w-[500px]">Manage your company’s finances with <img src="assets/razorpayX.svg" loading="lazy" width="168px" height="32px" class="inline">
+                <span class="text-greenLight">
+                Business Banking
+              </span></h3>
+              <ul class="space-y-2">
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Open a fully digital current account</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Automate payables & compliment payments</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>Simplify and track spends with Corporate cards</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <ion-icon name="checkmark-outline" class="text-greenLight" size="large"></ion-icon>
+                  <span>View financial insights at a glance</span>
+                </li>
+              </ul>
+              <!-- fot button and hyperlink -->
+              <div class="flex flex-row items-center space-x-5">
+               <button class="relative bg-lightBlue flex items-center group justify-start  font-bold rounded-md hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[86px] pl-6 text-white" >
+                Sign Up
+                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center  ">
+                   <ion-icon size="small" class="group-hover:translate-x-1 transition-all duration-200 -skew-x-[20deg]"  name="arrow-forward-outline"></ion-icon>
+                </div>
+              </button>
+                <!-- for hyperlink -->
+                <div class="flex flex-row items-center group font-bold gap-2 border border-slate-600 py-[12px] px-[12px] rounded-md">
+                  <a href="/" class="text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                   <ion-icon size="small" class="text-lightBlue group-hover:translate-x-1 transition-all duration-200"  name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+            <!-- bg img for content box -->
+            <img class="absolute  right-0 bottom-0 max-w-[600px]" src="assets/buisness-banking.png" loading="lazy">
+          </div>
+
+          <!-- card box -->
+          <div class="grid grid-cols-3 w-full gap-8 my-14">
+            <!-- box1 -->
+              <div class="w-full min-h-[15rem] relative cursor-pointer card darkshadow transition-all duration-200  ">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/Xicon.svg" loading="lazy">
+            <!-- boxshape -->
+             <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#181c2e"
+                  ></path>
+                </svg>                  <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-white leading-[1.2] text-[1.375rem]">Smart Collect</h3>
+              <p class="text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+            <!-- box2 -->
+           <div class="w-full min-h-[15rem] relative cursor-pointer card darkshadow transition-all duration-200  ">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/Xicon.svg" loading="lazy">
+            <!-- boxshape -->
+             <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#181c2e"
+                  ></path>
+                </svg>                  <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-white leading-[1.2] text-[1.375rem]">Smart Collect</h3>
+              <p class="text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+            <!-- box3 -->
+                 <div class="w-full min-h-[15rem] relative cursor-pointer card darkshadow transition-all duration-200  ">
+            <img class="bg-lightBlue imgcircle absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" src="assets/Xicon.svg" loading="lazy">
+            <!-- boxshape -->
+             <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#181c2e"
+                  ></path>
+                </svg>                  <!-- zigzag image -->
+              <img class="absolute right-0 bottom-3 opacity-0 zigzag" src="assets/features-wave.svg" >
+            <!-- box content -->
+            <div class="z-[90] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+
+             <!-- text part -->
+             <div>
+              <h3 class="font-extrabold text-white leading-[1.2] text-[1.375rem]">Smart Collect</h3>
+              <p class="text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+             </div>
+             <!-- hyperlink -->
+             <div class="flex gap-2 items-center cursor-pointer group   py-[14px] px-[18px]">
+                  <a class="text-lightBlue500  font-bold group-hover:text-gray-500 transition-all duration-200" href="">Know more</a>
+                  <ion-icon size="small" name="chevron-forward-outline" class="text-lightBlue500 group-hover:translate-x-2 transition-all duration-300 group-hover:text-gray-500  duration-20"></ion-icon>
+                </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- Demo box -->
+          <div class="w-full flex items-center justify-evenly mb-24 gap-6  relative border rounded-md border-slate-600 p-8 font-mullish ">
+            <p class="text-white text-xl">
+              Check out the live demo to learn how RazorpayX works.
+              <span class="font-bold">No sign-up required!</span>
+            </p>
+                <div class="flex flex-row items-center space-x-5">
+               <button class="relative bg-lightBlue flex items-center group justify-start font-semibold rounded-md text-[16px] hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[86px] pl-6 text-white" >
+                Check out the demo
+                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center  ">
+                   <ion-icon size="small" class="group-hover:translate-x-1 transition-all duration-200 -skew-x-[20deg]"  name="arrow-forward-outline"></ion-icon>
+                </div>
+              </button>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature section 3 -->
+
+      <section>
+        <div>
+          <img src="assets/feature-section1-dottedrows.png" loading="lazy">
+          <img src="assets/feature-section1-dottedrows.png" loading="lazy">
+          <!-- grid sec -->
+          <div>
+            <!-- item 1 -->
+            <div>
+              <h2>
+                New in the
+                <span>Razorpay</span>
+                Product Suite
+              </h2>
+            </div>
+            <!-- cards 1 -->
+            <div>
+              <img src="assets/razorpayXicon.svg" loading="lazy">
+              <h3>Corporate Card </h3>    
+              <p>Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              <div>
+                <a href="">Know More</a>
+                <i></i>
+              </div>
+            </div>
+            <!-- card 2 -->
+             <div>
+              <img src="" loading="lazy">
+              <h3></h3>
+              <p></p>
+              <div>
+                <a href=""></a>
+                <i></i>
+              </div>
+            </div>
+            <!-- card 3 -->
+             <div>
+              <img src="" loading="lazy">
+              <h3></h3>
+              <p></p>
+              <div>
+                <a href=""></a>
+                <i></i>
+              </div>
+            </div>
+            <!-- card 4 -->
+             <div>
+              <img src="" loading="lazy">
+              <h3></h3>
+              <p></p>
+              <div>
+                <a href=""></a>
+                <i></i>
+              </div>
+            </div>
+            <!-- card 6 -->
+             <div>
+              <img src="" loading="lazy">
+              <h3></h3>
+              <p></p>
+              <div>
+                <a href=""></a>
+                <i></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- icon pack -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+<footer class="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-5 text-center">
+    <div class="col-span-6 mx-auto"></div>
+    <br>
+    <p class="text-white">Made with ❤️ by Monazir Hassan Chishty</p>
+    <br>
+</footer>
